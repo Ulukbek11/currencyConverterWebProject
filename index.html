@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конвертер валют</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/icon3.png">
+</head>
+<body>
+    <div class="container">
+        <h1>💱 Конвертер валют</h1>
+        
+        <div class="converter-box">
+            <div class="input-group">
+                <label>Сумма</label>
+                <div class="input-wrapper">
+                    <input type="number" id="fromAmount" value="1" min="0" step="0.01">
+                    <select id="fromCurrency">
+                        <option value="USD" selected>USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="RUB">RUB</option>
+                        <option value="KGS">KGS</option>
+                        <option value="KZT">KZT</option>
+                        <option value="JPY">JPY</option>
+                        <option value="CNY">CNY</option>
+                        <option value="CAD">CAD</option>
+                        <option value="AUD">AUD</option>
+                    </select>
+                </div>
+            </div>
+
+            <button class="swap-button" id="swapBtn">⇅</button>
+
+            <div class="input-group">
+                <label>Результат</label>
+                <div class="input-wrapper">
+                    <input type="number" id="toAmount" value="0" readonly>
+                    <select id="toCurrency">
+                        <option value="USD">USD</option>
+                        <option value="EUR" selected>EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="RUB">RUB</option>
+                        <option value="KGS">KGS</option>
+                        <option value="KZT">KZT</option>
+                        <option value="JPY">JPY</option>
+                        <option value="CNY">CNY</option>
+                        <option value="CAD">CAD</option>
+                        <option value="AUD">AUD</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="result">
+            <div class="result-value" id="resultValue">0.00</div>
+            <div class="result-text" id="resultText">Загрузка курсов валют...</div>
+        </div>
+
+        <div class="rate-info" id="rateInfo"></div>
+        <div class="loading" id="loading" style="display: none;">
+            <div class="spinner"></div>
+        </div>
+        <div class="error" id="error"></div>
+        <div class="success" id="success"></div>
+        <div class="last-update" id="lastUpdate"></div>
+    </div>
+
+    <script src="main.js">
+        
+    </script>
+</body>
+</html>
