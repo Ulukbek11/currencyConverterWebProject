@@ -4,9 +4,9 @@
 
 ## 🚀 Демо
 
-**GitHub Pages:** `https://ulukbek11.github.io/currencyConverterWebProject/`
+**GitHub Pages:** [🔗 Live Demo](https://ulukbek11.github.io/currencyConverterWebProject/)
 
-**Figma Design:** `https://www.figma.com/community/file/1576477335500646626/currencyconverterwebprojectdesign`
+**Figma Design:** [Открыть дизайн в Figma](https://www.figma.com/community/file/1576477335500646626/currencyconverterwebprojectdesign)
 
 ## ✨ Возможности
 
@@ -38,30 +38,6 @@ git clone https://github.com/Ulukbek11/currencyConverterWebProject
 
 **Примечание:** API работает без необходимости регистрации и получения ключа для базового использования.
 
-## 🌐 Деплой на GitHub Pages
-
-1. Создайте новый репозиторий на GitHub с названием `currency-converter`
-
-2. Загрузите файл `index.html`:
-```bash
-git init
-git add index.html
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/Ulukbek11/currencyConverterWebProject
-git push -u origin main
-```
-
-3. Перейдите в **Settings** → **Pages**
-
-4. В разделе **Source** выберите:
-   - Branch: `main`
-   - Folder: `/ (root)`
-
-5. Нажмите **Save**
-
-6. Подождите несколько минут, и ваш сайт будет доступен по адресу:
-   `https://ulukbek11.github.io/currencyConverterWebProject/`
 
 ## 🎨 Figma Design
 
@@ -89,7 +65,7 @@ currency-converter/
 
 Используется бесплатный API: **ExchangeRate-API**
 
-- **Endpoint:** `https://api.exchangerate-api.com/v4/latest/USD`
+- **Endpoint:** [https://api.exchangerate-api.com/v4/latest/USD](https://api.exchangerate-api.com/v4/latest/USD)
 - **Лимиты:** 1,500 запросов в месяц (бесплатная версия)
 - **Формат ответа:** JSON
 - **Документация:** https://www.exchangerate-api.com/docs/overview
